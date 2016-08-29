@@ -9,6 +9,6 @@ describe("the modules were built correctly", function() {
   });
 
   it("should have the correct version", function() {
-    expect(m.ajax._["version-" + pkg.namesub]).to.equal('0.2.1');
+    expect(m.ajax._["version-" + pkg.namesub]).to.equal('0.2.2');
   });
 });
